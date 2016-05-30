@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *longitude;
+
+@property (weak, nonatomic) IBOutlet UITextField *latitude;
+
+@property (weak, nonatomic) IBOutlet UILabel *reverseDetailAddressLabel;
+
+- (IBAction)reveserGeocode:(id)sender;
 
 
 @end
